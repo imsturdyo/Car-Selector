@@ -65,7 +65,7 @@ public class CsvVehicleLoader implements VehicleLoader {
                 }
 
                 Integer seats = toIntOrNull(seatsStr);
-                BigDecimal msrp = toDecOrNull(msrpStr);
+                Double msrp = toDouOrNull(msrpStr);
 
                 vehicles.add(new Vehicle(
                         year, make, model, trim, body, seats, msrp, fuel
@@ -80,12 +80,12 @@ public class CsvVehicleLoader implements VehicleLoader {
         return value.isEmpty() ? null : value;
     }
 
-    private static Integer toIntOrNull(String s) {
-        try { return (s == null) ? null : Integer.valueOf(s); }
+    private static Integer toIntOrNull(String value) {
+        try { return (value == null) ? null : Integer.valueOf(value); }
         catch (Exception e) { return null; }
     }
-    private static BigDecimal toDecOrNull(String s) {
-        try { return (s == null) ? null : new BigDecimal(s); }
+    private static Double toDouOrNull(String value) {
+        try { return (value == null) ? null : Double.valueOf(value); }
         catch (Exception e) { return null; }
     }
 }
