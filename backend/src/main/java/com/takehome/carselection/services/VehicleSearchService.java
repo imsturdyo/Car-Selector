@@ -2,6 +2,7 @@ package com.takehome.carselection.services;
 
 import com.takehome.carselection.models.Meta;
 import com.takehome.carselection.models.SearchCriteria;
+import com.takehome.carselection.models.SearchResponse;
 import com.takehome.carselection.models.Vehicle;
 
 import java.util.List;
@@ -9,4 +10,5 @@ import java.util.List;
 public interface VehicleSearchService {
     Meta meta();
     List<Vehicle> search(SearchCriteria criteria);
+    SearchResponse searchPaged(SearchCriteria criteria, int requestedPage, int requestedPageSize);
 }
