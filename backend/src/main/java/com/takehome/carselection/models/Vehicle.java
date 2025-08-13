@@ -9,13 +9,13 @@ public class Vehicle {
     private String trim;
     private String body;
     private Integer seats;
-    private BigDecimal msrp;
+    private Double msrp;
     private String fuel;
 
     public Vehicle() {
     }
 
-    public Vehicle(Integer year, String make, String model, String trim, String body, Integer seats, BigDecimal msrp, String fuel) {
+    public Vehicle(Integer year, String make, String model, String trim, String body, Integer seats, Double msrp, String fuel) {
         this.year = year;
         this.make = make;
         this.model = model;
@@ -74,11 +74,11 @@ public class Vehicle {
         this.seats = seats;
     }
 
-    public BigDecimal getMsrp() {
+    public Double getMsrp() {
         return msrp;
     }
 
-    public void setMsrp(BigDecimal msrp) {
+    public void setMsrp(Double msrp) {
         this.msrp = msrp;
     }
 
