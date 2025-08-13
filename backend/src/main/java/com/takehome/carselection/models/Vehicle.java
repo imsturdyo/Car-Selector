@@ -1,5 +1,7 @@
 package com.takehome.carselection.models;
 
+import java.math.BigDecimal;
+
 public class Vehicle {
     private Integer year;
     private String make;
@@ -7,13 +9,13 @@ public class Vehicle {
     private String trim;
     private String body;
     private Integer seats;
-    private Integer msrp;
+    private BigDecimal msrp;
     private String fuel;
 
     public Vehicle() {
     }
 
-    public Vehicle(Integer year, String make, String model, String trim, String body, Integer seats, Integer msrp, String fuel) {
+    public Vehicle(Integer year, String make, String model, String trim, String body, Integer seats, BigDecimal msrp, String fuel) {
         this.year = year;
         this.make = make;
         this.model = model;
@@ -72,11 +74,11 @@ public class Vehicle {
         this.seats = seats;
     }
 
-    public Integer getMsrp() {
+    public BigDecimal getMsrp() {
         return msrp;
     }
 
-    public void setMsrp(Integer msrp) {
+    public void setMsrp(BigDecimal msrp) {
         this.msrp = msrp;
     }
 
