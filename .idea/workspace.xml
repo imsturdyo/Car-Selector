@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7742cdad-99ee-416f-9b4d-aede84086610" name="Changes" comment="add loaders and services with respective tests classes">
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/takehome/carselection/controllers/VehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/takehome/carselection/controllers/VehicleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/takehome/carselection/loaders/CsvVehicleLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/takehome/carselection/loaders/CsvVehicleLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/takehome/carselection/models/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/takehome/carselection/models/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/takehome/carselection/loaders/CsvVehicleLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/takehome/carselection/loaders/CsvVehicleLoaderTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="31DA0fB4snqO5GQYuicL3PfUOme" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/olumi/Downloads/carselection",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\olumi\Downloads\carselection\backend" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\olumi\Downloads\carselection\backend" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CsvVehicleLoaderTest.loadVehicles_readsCsvAndMapsFields">
+    <configuration name="CarselectionApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carselection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.takehome.carselection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.takehome.carselection" />
+      <option name="MAIN_CLASS_NAME" value="com.takehome.carselection.CarselectionApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsvVehicleLoaderTest.loadVehicles_readsCsvAndMapsFields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carselection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.takehome.carselection.loaders.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.takehome.carselection.loaders" />
+      <option name="MAIN_CLASS_NAME" value="com.takehome.carselection.loaders.CsvVehicleLoaderTest" />
+      <option name="METHOD_NAME" value="loadVehicles_readsCsvAndMapsFields" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CsvVehicleLoaderTest.loadVehicles_readsCsvAndMapsFields" />
+        <item itemvalue="JUnit.CarselectionApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7742cdad-99ee-416f-9b4d-aede84086610" name="Changes" comment="" />
+      <created>1755048048091</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755048048091</updated>
+    </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1755048461900</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755048461900</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add dto models">
+      <created>1755049919650</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755049919650</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add loaders and services with respective tests classes">
+      <created>1755049957410</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755049957410</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <MESSAGE value="add dto models" />
+    <MESSAGE value="add loaders and services with respective tests classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add loaders and services with respective tests classes" />
+  </component>
+</project>
