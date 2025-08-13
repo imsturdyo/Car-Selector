@@ -2,12 +2,14 @@ package com.takehome.carselection.controllers;
 
 import com.takehome.carselection.models.Meta;
 import com.takehome.carselection.services.VehicleSearchService;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api")
+@CrossOrigin("*")
 public class VehicleController {
     private final VehicleSearchService service;
 
